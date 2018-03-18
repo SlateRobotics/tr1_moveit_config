@@ -5,6 +5,6 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/tr1.srdf
   CONFIG:
-    author_name: Slate Robotics, Inc.
+    author_name: Zachary Allen
     author_email: zach@slaterobots.com
-    generated_timestamp: 1520120563
+    generated_timestamp: 1521313489

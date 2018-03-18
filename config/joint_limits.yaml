@@ -2,67 +2,97 @@
 # Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
-  arm1_to_arm2:
+  JointLeftGripper:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  arm2_to_arm3:
+  JointRightElbowFlex:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  arm3_to_arm4:
+  JointRightForearmRoll:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  arm4_to_arm5:
+  JointRightGripper:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  arm5_to_arm6:
+  JointRightShoulderPan:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  arm6_to_arm7:
+  JointRightShoulderTilt:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  arm7_to_arm8:
+  JointRightUpperArmRoll:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  gripper:
+  JointRightWristFlex:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  gripper1_to_gripper3:
+  JointRightWristRoll:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  gripper1_to_gripper4l:
+  left_gripper1_to_left_gripper3:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  gripper1_to_gripper4r:
+  left_gripper1_to_left_gripper4l:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  gripper2_to_gripper6:
+  left_gripper1_to_left_gripper4r:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false
     max_acceleration: 0
-  gripper3_to_gripper5:
+  left_gripper2_to_left_gripper6:
+    has_velocity_limits: true
+    max_velocity: 0.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  left_gripper3_to_left_gripper5:
+    has_velocity_limits: true
+    max_velocity: 0.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_gripper1_to_right_gripper3:
+    has_velocity_limits: true
+    max_velocity: 0.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_gripper1_to_right_gripper4l:
+    has_velocity_limits: true
+    max_velocity: 0.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_gripper1_to_right_gripper4r:
+    has_velocity_limits: true
+    max_velocity: 0.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_gripper2_to_right_gripper6:
+    has_velocity_limits: true
+    max_velocity: 0.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  right_gripper3_to_right_gripper5:
     has_velocity_limits: true
     max_velocity: 0.5
     has_acceleration_limits: false

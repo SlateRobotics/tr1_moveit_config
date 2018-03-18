@@ -69,4 +69,6 @@
     <param name="planning_scene_monitor/publish_transforms_updates" value="$(arg publish_monitored_planning_scene)" />
   </node>
 
+	<remap from="/joint_states" to="/tr1/joint_states" />
+
 </launch>

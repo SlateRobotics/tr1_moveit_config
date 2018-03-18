@@ -1,3 +1,0 @@
-<launch>
-	<rosparam command="load" file="$(find tr1_moveit_config)/config/joint_names.yaml"/>
-	<include file
