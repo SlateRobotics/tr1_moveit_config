@@ -19,13 +19,13 @@
         <joint name="JointRightWristRoll" />
     </group>
     <group name="left_arm">
-        <joint name="JointRightShoulderPan" />
-        <joint name="JointRightShoulderTilt" />
-        <joint name="JointRightUpperArmRoll" />
-        <joint name="JointRightElbowFlex" />
-        <joint name="JointRightForearmRoll" />
-        <joint name="JointRightWristFlex" />
-        <joint name="JointRightWristRoll" />
+        <joint name="JointLeftShoulderPan" />
+        <joint name="JointLeftShoulderTilt" />
+        <joint name="JointLeftUpperArmRoll" />
+        <joint name="JointLeftElbowFlex" />
+        <joint name="JointLeftForearmRoll" />
+        <joint name="JointLeftWristFlex" />
+        <joint name="JointLeftWristRoll" />
     </group>
     <group name="right_gripper">
         <link name="right_gripper1_link" />
@@ -54,6 +54,15 @@
         <joint name="JointRightUpperArmRoll" value="-1.5708" />
         <joint name="JointRightWristFlex" value="0" />
         <joint name="JointRightWristRoll" value="0" />
+    </group_state>
+    <group_state name="home" group="left_arm">
+        <joint name="JointLeftElbowFlex" value="0.006" />
+        <joint name="JointLeftForearmRoll" value="0" />
+        <joint name="JointLeftShoulderPan" value="0" />
+        <joint name="JointLeftShoulderTilt" value="0" />
+        <joint name="JointLeftUpperArmRoll" value="0" />
+        <joint name="JointLeftWristFlex" value="0" />
+        <joint name="JointLeftWristRoll" value="0" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="right_eef" parent_link="right_arm8_link" group="right_gripper" />
